@@ -1,14 +1,23 @@
 function HeroFeature() {
   return (
-    <div className="p-4 p-md-5 mb-4 rounded text-body-emphasis bg-body-secondary">
-      <div className="col-lg-7 px-0">
-        <h1 className="display-4 fst-italic">Daniel Red • Revised Blog Template</h1>
-        <p className="lead my-3">
-          A clean RTL Bootstrap blog page customized with your branding and organized with reusable React components.
+    <div className="hero-gradient mb-5">
+      <div className="col-lg-8 px-0">
+        <h1 className="display-3 fw-bold mb-3">
+          ✨ Daniel Red
+        </h1>
+        <h2 className="display-6 mb-4">Modern Development & Creative Design</h2>
+        <p className="lead my-3" style={{ fontSize: '1.25rem' }}>
+          Building stunning web experiences with cutting-edge technology. A portfolio showcasing 
+          innovative React applications, responsive designs, and modern UI patterns.
         </p>
-        <p className="lead mb-0">
-          <a href="#" className="text-body-emphasis fw-bold">Continue reading...</a>
-        </p>
+        <div className="d-flex gap-3 flex-wrap">
+          <a href="#" className="d-inline-flex">
+            🚀 Explore Projects
+          </a>
+          <a href="#" className="d-inline-flex">
+            📬 Get in Touch
+          </a>
+        </div>
       </div>
     </div>
   )
